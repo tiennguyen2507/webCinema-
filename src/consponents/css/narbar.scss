@@ -1,0 +1,42 @@
+.narbar{
+    
+        background-color: rgb(85, 212, 221);
+        
+      
+}
+.narbar_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    a{
+       img{
+        width: 120px;
+       }
+
+    }
+    .ulcenter {
+        display: flex;
+        margin-bottom: 0px;
+        li{
+            list-style: none;
+            a{
+                color: white;
+            }
+            padding-left: 10px;
+        }
+        
+    }
+    .ulright{
+        margin-bottom: 0px;
+        display: flex;
+        li{
+            list-style-type: none;
+            padding-left: 10px;
+            a{
+                color: white;
+            }
+        }
+    }
+
+}
